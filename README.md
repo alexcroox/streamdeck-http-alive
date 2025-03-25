@@ -1,4 +1,5 @@
 # Stream Deck HTTP ALIVE Plugin
+_Marketplace plugin awaiting review_
 
 Continuously check if a HTTP server is alive and be alerted if it goes down.
 
