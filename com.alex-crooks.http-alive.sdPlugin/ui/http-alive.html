@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <title>HTTP Alive Settings</title>
+    <meta charset="utf-8" />
+    <script src="https://sdpi-components.dev/releases/v3/sdpi-components.js"></script>
+</head>
+
+<body>
+    <!--
+        Learn more about property inspector components at https://sdpi-components.dev/docs/components
+    -->
+    <sdpi-item label="URL or IP Address">
+        <sdpi-textfield setting="endpoint"></sdpi-textfield>
+    </sdpi-item>
+
+    <sdpi-item label="Healthy Status Code">
+        <sdpi-textfield setting="healthyStatusCode" placeholder="Default 200"></sdpi-textfield>
+    </sdpi-item>
+
+    <sdpi-item label="Frequency (seconds)">
+        <sdpi-textfield setting="checkSeconds" placeholder="Default and minimum 30 seconds"></sdpi-textfield>
+    </sdpi-item>
+</body>
+
+</html>

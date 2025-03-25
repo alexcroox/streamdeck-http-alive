@@ -1,0 +1,47 @@
+{
+	"Name": "HTTP Alive",
+	"Version": "0.1.0.0",
+	"Author": "Alex Crooks",
+	"Actions": [
+		{
+			"Name": "Endpoint check",
+			"UUID": "com.alex-crooks.http-alive.increment",
+			"Icon": "imgs/actions/http-alive/icon",
+			"Tooltip": "Continually check if a URL is responding with a 200 healthy code",
+			"PropertyInspectorPath": "ui/http-alive.html",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"Image": "imgs/actions/http-alive/key",
+					"TitleAlignment": "middle"
+				}
+			]
+		}
+	],
+	"Category": "HTTP Alive",
+	"CategoryIcon": "imgs/plugin/category-icon",
+	"CodePath": "bin/plugin.js",
+	"Description": "Check if a URL or IP is responding",
+	"Icon": "imgs/plugin/marketplace",
+	"SDKVersion": 2,
+	"Software": {
+		"MinimumVersion": "6.4"
+	},
+	"OS": [
+		{
+			"Platform": "mac",
+			"MinimumVersion": "12"
+		},
+		{
+			"Platform": "windows",
+			"MinimumVersion": "10"
+		}
+	],
+	"Nodejs": {
+		"Version": "20",
+		"Debug": "enabled"
+	},
+	"UUID": "com.alex-crooks.http-alive"
+}
